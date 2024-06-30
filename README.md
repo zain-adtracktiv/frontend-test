@@ -12,4 +12,12 @@ Create a `RadioGroup` component according to the design in the attached screensh
 - Attention to detail: The component matches the styling of the provided design.
 
 Design:
+
 ![alt text](<CleanShot 2024-07-01 at 03.55.07@2x.png>)
+
+Process:
+
+- Fork the repo
+- Create the component and use in the homepage
+- Push your changes to the forked repo
+- Share the link of the forked repo with us on Upwork

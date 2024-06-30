@@ -10,3 +10,6 @@ Create a `RadioGroup` component according to the design in the attached screensh
 - Reusability: The component should be reusable across different parts of a website and for different use cases.
 - Accessibility: The component follows best practices for accessbility.
 - Attention to detail: The component matches the styling of the provided design.
+
+Design:
+![alt text](<CleanShot 2024-07-01 at 03.55.07@2x.png>)

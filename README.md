@@ -1,36 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hey, thanks for applying for this role! We are pleased to inform you are one of the developers that was carefully shortlisted from over a hundred applications.
 
-## Getting Started
+For the next round, we invite you to a technical challenge aimed at assessing your ability to write clean, functional, modular and lean code. The task has been designed to be completed in about an hour.
 
-First, run the development server:
+Task:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Create a `RadioGroup` component according to the design in the attached screenshot. The component should be a controlled component that is styled using TailwindCSS. The deliverable will be judged on the following criteria:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Functionality: The component should be performant across all major browsers.
+- Reusability: The component should be reusable across different parts of a website and for different use cases.
+- Accessibility: The component follows best practices for accessbility.
+- Attention to detail: The component matches the styling of the provided design.

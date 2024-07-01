@@ -18,6 +18,7 @@ Design:
 Process:
 
 - Fork the repo
-- Create the component and use in the homepage
-- Push your changes to the forked repo
+- Create the component and use it in the homepage
+- Push your changes to the forked repo by creating a pull request
+- In the PR, suggest how you have structured the properties and sub-components for this component so that it can be reused across different websites with slight variations in content and designs
 - Share the link of the forked repo with us on Upwork

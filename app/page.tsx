@@ -5,11 +5,13 @@ import * as React from "react";
 
 export default function Home() {
   const options = [
-    { label: "3 Sticks (-32%)", value: "46.00", each: true, bestDeal: true },
-    { label: "2 Sticks (-32%)", value: "71.00", each: true },
-    { label: "1 Sticks (-32%)", value: "75.00" },
+    { label: "3 Sticks (-32%)", value: 46.0, each: true },
+    { label: "2 Sticks (-22%)", value: 71.0, each: true },
+    { label: "1 Stick (-15%)", value: 75.0 },
   ];
-  const [selectedValue, setSelectedValue] = React.useState(options[0].value);
+  const [selectedValue, setSelectedValue] = React.useState<number>(
+    options[0].value
+  );
 
   return (
     <div className="flex flex-col py-10 items-center justify-center">

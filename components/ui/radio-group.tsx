@@ -1,7 +1,7 @@
 import React from "react";
 
 interface RadioOption {
-  value: string;
+  value: number;
   label: string;
   bestDeal?: boolean;
   each?: boolean;
@@ -10,8 +10,8 @@ interface RadioOption {
 interface RadioGroupProps {
   options: RadioOption[];
   name: string;
-  selectedValue: string;
-  onChange: (value: string) => void;
+  selectedValue: number;
+  onChange: (value: number) => void;
 }
 
 const RadioGroup: React.FC<RadioGroupProps> = ({
@@ -20,6 +20,9 @@ const RadioGroup: React.FC<RadioGroupProps> = ({
   selectedValue,
   onChange,
 }) => {
+  const lowestPriceOption = options.reduce((prev, current) =>
+    current.value < prev.value ? current : prev
+  );
   return (
     <div className="flex gap-4 flex-wrap">
       {options.map((option) => (
@@ -55,7 +58,7 @@ const RadioGroup: React.FC<RadioGroupProps> = ({
               {option.each && "/each"}
             </span>
           </div>
-          {option.bestDeal && (
+          {option === lowestPriceOption && (
             <div className="absolute text-white text-sm uppercase bg-[#5A58F2] rounded-xl p-3.5 py-1 w-fit -top-4 mx-auto left-0 right-0">
               Best Deal
             </div>

@@ -1,4 +1,3 @@
-// components/RadioGroup.tsx
 import React from "react";
 
 interface RadioOption {
@@ -26,7 +25,7 @@ const RadioGroup: React.FC<RadioGroupProps> = ({
       {options.map((option) => (
         <label
           key={option.value}
-          className={`flex relative cursor-pointer gap-2 border-2 rounded-xl p-4 py-5 pr-6 ${
+          className={`flex relative cursor-pointer gap-2 border-2 rounded-2xl p-4 py-5 pr-8 ${
             selectedValue === option.value
               ? "bg-[#ECEBFE] border-[#4745EE]"
               : "bg-[#DEE2EA] border-[#B7BED0]"
@@ -41,9 +40,9 @@ const RadioGroup: React.FC<RadioGroupProps> = ({
             className="hidden"
           />
           <span
-            className={`size-6 bg-white rounded-full ${
+            className={`size-7 bg-white rounded-full ${
               selectedValue === option.value
-                ? "border-[#5A58F2] border-[7px]"
+                ? "border-[#5A58F2] border-[8px]"
                 : "border-[#B7BED0] border"
             }`}
           ></span>
@@ -52,7 +51,8 @@ const RadioGroup: React.FC<RadioGroupProps> = ({
               {option.label}
             </span>
             <span className="text-[#262A32] text-sm">
-              {option.value}${option.each && "/each"}
+              ${option.value}
+              {option.each && "/each"}
             </span>
           </div>
           {option.bestDeal && (

@@ -3,7 +3,6 @@ import React from "react";
 interface RadioOption {
   value: number;
   label: string;
-  bestDeal?: boolean;
   each?: boolean;
 }
 

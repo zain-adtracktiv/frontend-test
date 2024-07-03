@@ -6,7 +6,15 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        primary: "#5a58f2",
+        secondary: "#ECEBFE",
+        background: "#DEE2EA",
+      },
+    },
+  },
   plugins: [],
 };
 export default config;

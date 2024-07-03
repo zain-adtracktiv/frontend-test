@@ -10,7 +10,9 @@ const config: Config = {
     extend: {
       colors: {
         'primary': '#5C5AEF',
-        'secondary': '#B2B9C8'
+        'secondary': '#B2B9C8',
+        'bg-primary': '#ECEBFD',
+        'bg-secondary': '#DEE2E9'
       },
       spacing: {
         25: '6.25rem', // 100px

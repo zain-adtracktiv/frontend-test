@@ -20,7 +20,7 @@ const Radio = ({label, description, selected, handleSelect, index}: IRadioProps)
 
     return (
         <>
-            <div className={`border-2 p-6 relative rounded-3xl ${selected ? 'border-primary': 'border-secondary'} w-90 h-35`}>
+            <div className={`border-2 p-6 relative rounded-3xl ${selected ? 'border-primary bg-bg-primary': 'border-secondary bg-bg-secondary'} w-90 h-35`}>
                 {selected && <div className="absolute flex -top-6 left-25 h-12 w-40 bg-primary rounded-2xl font-medium text-lg">
                     <span className="m-auto text-white">
                         BEST DEAL
@@ -28,7 +28,7 @@ const Radio = ({label, description, selected, handleSelect, index}: IRadioProps)
                 </div>}
                 <div className="mt-2 ">
                     <div className="flex gap-x-4">
-                        <div onClick={handleOnClick} className={`${selected ? 'border-12 border-primary' : 'border-2 border-secondary'} cursor-pointer rounded-full w-11 h-11`}></div>
+                        <div onClick={handleOnClick} className={`${selected ? 'border-12 border-primary' : 'border-2 border-secondary'} bg-white cursor-pointer rounded-full w-11 h-11`}></div>
                         <div>
                             <div className="mt-1 text-3xl font-extrabold">{label}</div>
                             <div className="mt-3 text-xl">{description}</div>

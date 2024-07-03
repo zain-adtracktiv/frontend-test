@@ -23,6 +23,17 @@ export default function Home() {
         name="example"
         selectedValue={selectedValue}
         onChange={setSelectedValue}
+        // Optional
+        bestDealLabel="Best Deal"
+        customStyles={{
+          container: "",
+          optionContainer: "",
+          radioButton: "",
+          selectedRadioButton: "",
+          label: "",
+          price: "",
+          bestDealTag: "",
+        }}
       />
     </div>
   );

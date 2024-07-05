@@ -24,16 +24,16 @@ export default function Home() {
         selectedValue={selectedValue}
         onChange={setSelectedValue}
         // Optional
-        bestDealLabel="Best Deal"
-        customStyles={{
-          container: "",
-          optionContainer: "",
-          radioButton: "",
-          selectedRadioButton: "",
-          label: "",
-          price: "",
-          bestDealTag: "",
-        }}
+        // bestDealLabel="Best Deal"
+        // customStyles={{
+        //   container: "",
+        //   optionContainer: "",
+        //   radioButton: "",
+        //   selectedRadioButton: "",
+        //   label: "",
+        //   price: "",
+        //   bestDealTag: "",
+        // }}
       />
     </div>
   );

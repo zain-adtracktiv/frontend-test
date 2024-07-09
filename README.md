@@ -21,5 +21,5 @@ Process:
 - Create the component and use it in the homepage
 - Push your changes to the forked repo by creating a pull request
 - (Important!) In the PR, suggest how, if you had more time, you would have structured the properties and sub-components for this component so that it can be reused across different websites with slight variations in content and designs
-- Share the link of the forked repo with us on Upwork
+- Share the link of the forked repo with us on Upwork (or on email)
 - Timer is stopped

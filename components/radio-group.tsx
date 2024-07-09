@@ -21,12 +21,12 @@ const RadioGroup: React.FC<{ options: Option[] }> = ({ options }) => {
         <div
           key={option.id}
           className={`relative border p-4 rounded-lg cursor-pointer flex items-start space-x-2 ${
-            selectedOption === option.id ? 'border-blue-500 bg-blue-100' : 'border-gray-300 bg-gray-200'
+            selectedOption === option.id ? 'border-blue-500 bg-gray-200' : 'border-gray-300 bg-gray-200'
           }`}
           onClick={() => handleSelect(option.id)}
         >
           {option.bestDeal && (
-            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 text-white bg-blue-500 px-3 py-1 text-xs font-semiBold rounded-full">
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 text-white bg-blue-500 px-3 py-1 text-xs rounded-md">
               BEST DEAL
             </div>
           )}

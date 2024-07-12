@@ -1,7 +1,9 @@
+import RadioGroup from "@/components/radio-group";
+
 export default function Home() {
   return (
     <div className="text-xl font-bold">
-      Create a RadioGroup component and use it here
+      <RadioGroup />
     </div>
   );
 }

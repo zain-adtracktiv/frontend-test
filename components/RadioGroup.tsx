@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import RadioButtonLayout from './RadioButtonLayout';
+import RadioButton from './RadioButton';
 
 const RadioGroup: React.FC = () => {
   const deals = [
@@ -34,7 +34,7 @@ const RadioGroup: React.FC = () => {
     <div className="p-12 justify-between items-center">
       <div className="relative flex flex-col sm:flex-row gap-8">
         {deals.map((option) => (
-          <RadioButtonLayout
+          <RadioButton
             key={option.id}
             id={option.id}
             title={option.title}

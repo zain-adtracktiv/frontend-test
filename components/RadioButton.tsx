@@ -1,4 +1,4 @@
-interface RadioButtonLayoutProps {
+interface RadioButtonProps {
   id: string;
   title: string;
   price: string;
@@ -7,7 +7,7 @@ interface RadioButtonLayoutProps {
   isBestDeal: boolean;
 }
 
-const RadioButtonLayout: React.FC<RadioButtonLayoutProps> = ({
+const RadioButton: React.FC<RadioButtonProps> = ({
   id,
   title,
   price,
@@ -59,4 +59,4 @@ const RadioButtonLayout: React.FC<RadioButtonLayoutProps> = ({
     </div>
   );
 };
-export default RadioButtonLayout;
+export default RadioButton;

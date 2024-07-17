@@ -12,8 +12,8 @@ const RadioGroup = () => {
 	};
 
 	return (
-		<>
-			<ul className="grid w-full gap-6 md:grid-cols-2">
+		<section className="container px-5">
+			<ul className="grid w-full gap-6 md:grid-cols-3">
 				<Radio
 					name="3 Sticks (-32%)"
 					description="$64.00/each"
@@ -39,9 +39,7 @@ const RadioGroup = () => {
 					onChange={handleChange}
 				/>
 			</ul>
-
-
-		</>
+		</section >
 	);
 };
 
